@@ -9,8 +9,8 @@ import { Toaster } from 'react-hot-toast'
 const font = Poppins({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
 
 export const metadata: Metadata = {
-  title: 'E-Shop',
-  description: 'Ecommerce app',
+  title: 'Huh Portfolio',
+  description: 'Huh Portfolio',
 }
 
 export default async function RootLayout({

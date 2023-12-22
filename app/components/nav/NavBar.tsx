@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Container from "../Container";
-import { Noto_Sans } from 'next/font/google'
+import { Permanent_Marker } from 'next/font/google'
 import CartCount from "./CartCount";
 import UserMenu from "./UserMenu";
 import { getCurrentUser } from "@/actions/getCurrentUser";
 import Categories from "./Categories";
 import SearchBar from "./SearchBar";
 
-const logo = Noto_Sans({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'] })
+const logo = Permanent_Marker({ subsets: ['latin'], weight: ['400'] })
 
 const NavBar = async () => {
   const currentUser = await getCurrentUser()
@@ -17,7 +17,7 @@ const NavBar = async () => {
       <div className="py-4 border-b-[1px]">
         <Container>
           <div className="flex items-center justify-between gap-3 md:gap-0">
-            <Link href="/" className={`${logo.className} font-bold text-xl`}>4DEG</Link>
+            <Link href="/" className={`${logo.className} font-bold text-3xl`}>Huh</Link>
             <div className="hidden md:block">
               <SearchBar />
             </div>

@@ -14,7 +14,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       boxShadow: {
-        'xl': '0 0px 20px 0px rgba(0, 0, 0, 0.2)',
+        'xl': '0 0px 16px 0px rgba(0, 0, 0, 0.1)',
       }
     },
   },
