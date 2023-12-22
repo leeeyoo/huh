@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { Noto_Sans_KR } from 'next/font/google'
 import './globals.css'
 import NavBar from './components/nav/NavBar'
 import Footer from './components/footer/Footer'
 import CartProvider from '@/providers/CartProvider'
 import { Toaster } from 'react-hot-toast'
 
-const font = Poppins({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
+const font = Noto_Sans_KR({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] })
 
 export const metadata: Metadata = {
   title: 'Huh Portfolio',
