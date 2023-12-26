@@ -1,33 +1,24 @@
-import { AiFillPhone, AiOutlineDesktop, AiOutlineLaptop } from "react-icons/ai";
-import { MdOutlineKeyboard, MdStorefront, MdTv, MdWatch } from "react-icons/md";
+import { PiApertureLight, PiArmchairLight, PiPantsLight, PiUserFocusLight, PiWineLight } from "react-icons/pi";
 
 export const categories = [
   {
     label: "All",
-    icon: MdStorefront
+    icon: PiApertureLight
   },
   {
-    label: "Phone",
-    icon: AiFillPhone
+    label: "Portrait",
+    icon: PiUserFocusLight
   },
   {
-    label: "Laptop",
-    icon: AiOutlineLaptop
+    label: "Fashion",
+    icon: PiPantsLight
   },
   {
-    label: "Desktop",
-    icon: AiOutlineDesktop
+    label: "Food",
+    icon: PiWineLight
   },
   {
-    label: "Watch",
-    icon: MdWatch
-  },
-  {
-    label: "TV",
-    icon: MdTv
-  },
-  {
-    label: "Accesories",
-    icon: MdOutlineKeyboard
+    label: "Product",
+    icon: PiArmchairLight
   },
 ]

@@ -68,7 +68,7 @@ const LoginForm: React.FC<LoginFormProps> = ({
 
   return (
     <>
-      <Heading title="Sign in to -4degree" />
+      <Heading title="Sign in to HYEIN HUH" />
       <Button
         outline
         label="Continue with Google"

@@ -9,8 +9,8 @@ import { Toaster } from 'react-hot-toast'
 const font = Noto_Sans_KR({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] })
 
 export const metadata: Metadata = {
-  title: 'Huh Portfolio',
-  description: 'Huh Portfolio',
+  title: 'Hyein Huh Portfolio',
+  description: 'Hyein Huh Portfolio',
 }
 
 export default async function RootLayout({
