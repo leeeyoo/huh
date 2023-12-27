@@ -14,7 +14,7 @@ export default async function Home({ searchParams }: HomeProps) {
   const products = await getProducts(searchParams)
 
   if (products.length === 0) {
-    return <NullData title='Oops! No products found. Click "All" to clear filters' />
+    return <NullData title='사진이 없습니다.' />
   }
 
   // Fisher-Yates shuffle algorithm
